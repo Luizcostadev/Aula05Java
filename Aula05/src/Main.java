@@ -19,6 +19,11 @@ public class Main {
         System.out.println("nome:"+a.getNome());
         System.out.println("M");
 
+        Disciplina disciplina = new Disciplina();
+            System.out.println("Digite o nome  da disciplina");
+            disciplina.cadastrarAluno(a);
+            disciplina.ministrarDisciplina();
+
 
 
 
